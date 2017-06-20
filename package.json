@@ -1,10 +1,9 @@
 {
   "name": "recipe-snippets",
   "main": "./lib/recipe-snippets",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Snippets for composing BoxGrater recipe files.",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "recipe-snippets:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
