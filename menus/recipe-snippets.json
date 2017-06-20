@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle recipe-snippets",
+        "command": "recipe-snippets:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Recipe Snippets",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "recipe-snippets:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

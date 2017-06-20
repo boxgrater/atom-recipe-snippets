@@ -1,0 +1,6 @@
+# New Recipe
+
+'.source.yaml':
+  'New eRecipe':
+    'prefix': 'rec'
+    'body': 'name: "${1}"\ncategory: "${2}"\nyield: { qty: "", uom: ""}\ningredients:\n - ${3:ing}\n'

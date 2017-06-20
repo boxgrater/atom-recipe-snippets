@@ -1,0 +1,6 @@
+# New Ingredient
+
+'.source.yaml':
+  'New Ingredient':
+    'prefix': 'ing'
+    'body': '{ qty: ${1:1}, uom: ${2:ozm}, item: "${3}" , mods: ${4:null} }\n${5:- ing}${6}'
